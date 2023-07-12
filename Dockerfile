@@ -11,6 +11,7 @@ RUN apk add --no-cache \
 
 # Needed for kitchen-dokken
 RUN apk add --no-cache \
+  ncurses \
   rsync
 
 # AWS CLI v2 and ECR login helper
